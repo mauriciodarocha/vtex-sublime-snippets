@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+        <div class="tpl-cart">
+            <a href="/Site/Carrinho.aspx" class="cart-link">
+                <span class="cart-title">Meu Carrinho</span>
+                <div class="cart-summary clearfix">
+                    <span class="amount-items"></span>
+                    <span class="total-price-container"></span>
+                </div>
+            </a>
+            <div class="cart-dropdown"></div>
+        </div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tpl-cart</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+</snippet>
+
+        

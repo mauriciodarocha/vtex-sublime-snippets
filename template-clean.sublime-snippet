@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+    <vtex:template id="title" />
+    <vtex:metaTags />
+    <vtex:template id="favicon" />
+    <link rel="stylesheet" type="text/css" href="/arquivos/vtex.normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/arquivos/standard.css" />
+    <script type="text/javascript" src="/arquivos/standard.js"></script>
+</head>
+<body>
+    ${1:html}
+</body>
+</html>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>template-clean</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+</snippet>
+
+        

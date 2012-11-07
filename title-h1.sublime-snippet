@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+        <h1>
+            <a onClick="javascript:this.href=document.location.protocol+'//'+document.location.host" title="${1:título}">${2:Nome da loja}</a>
+        </h1>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>title-h1</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html</scope>
+</snippet>
+
+        
